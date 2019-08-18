@@ -1,0 +1,32 @@
+{
+  "name": "react-course",
+  "version": "0.0.1",
+  "description": "Local base project folder with it's base dependencies.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matiasmlforever/react_course.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Matias Lecaros Aranis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matiasmlforever/react_course/issues"
+  },
+  "homepage": "https://github.com/matiasmlforever/react_course#readme"
+}

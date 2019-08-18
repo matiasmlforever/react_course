@@ -1,21 +1,23 @@
-import React, { Component } from "react";
-import "./App.css";
+import React, { Component } from 'react'
+import './App.css'
+import Person from './Person/Person'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="App">
+      <div className='App'>
         <h1>Hola, soy una aplicacion REACT</h1>
         <p>holi this is working</p>
+        <Person />
       </div>
-    );
+    )
 
-    return React.createElement(
-      "div",
-      { className: "App" },
-      React.createElement("h1", null, "HOLA SOY UNA APP REACT")
-    );
+    // return React.createElement(
+    //   "div",
+    //   { className: "App" },
+    //   React.createElement("h1", null, "HOLA SOY UNA APP REACT")
+    // );
   }
 }
 
-export default App;
+export default App

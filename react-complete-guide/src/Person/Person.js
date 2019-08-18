@@ -1,9 +1,7 @@
-function person() {
+import React from 'react'
 
+const person = () => {
+  return <p>Soy una persona!</p>
 }
 
-var person2 = function () {
-
-}
-
-const 
+export default person
